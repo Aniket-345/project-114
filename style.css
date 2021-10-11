@@ -1,0 +1,25 @@
+h3{
+    font-size: 25px !important;
+    width: 50%;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+#button, .btn-warning{
+    width: 10% !important;
+    border: 0 !important;
+}
+#button:hover{
+    background-color: rgb(8, 61, 32);
+    
+}
+canvas{
+    animation-name: Color_change;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    margin-top: 25px;
+}
+@keyframes Color_change{
+    from{box-shadow: 5px 5px 60px blue}
+    to{box-shadow: 5px 5px 60px lightblue}
+}
